@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.3",
+    "prisma": "^5.21.0",
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.21.0",
+    "express": "^4.21.1",
+    "morgan": "^1.10.0"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  }
+}
